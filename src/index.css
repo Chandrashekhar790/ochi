@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: main;
+    src: url(../Found.ttf);
+}
+
+.main{
+    font-family: main;
+}
+
+
+@font-face {
+    font-family: manu;
+    src: url(../Neu.ttf);
+}
+
+.manu{
+    font-family:manu ;
+}
+
