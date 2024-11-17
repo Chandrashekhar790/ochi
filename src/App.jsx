@@ -8,13 +8,14 @@ import Featured from './Components/featured/Featured';
 import Maincard from './Components/mainCard/Maincard';
 import Footer from './Components/Footer/Footer';
 import LocomotiveScroll from 'locomotive-scroll';
+import {HashRouter} from "react-router-dom";
 
 const App = () => {
   
   const locomotiveScroll = new LocomotiveScroll();
 
   return (
-    
+    <HashRouter>
         <div className='w-full h-screen text-white bg-zinc-900'>
         <Navbar/>
         <Land/>
@@ -27,7 +28,7 @@ const App = () => {
 
         </div>
 
-
+</HashRouter>
   )
 }
 
